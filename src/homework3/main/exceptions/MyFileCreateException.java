@@ -1,0 +1,7 @@
+package homework3.main.exceptions;
+
+public class MyFileCreateException extends FileCreateException{
+    public MyFileCreateException(String message) {
+        super("Can't create file in CFileCreator: " + message);
+    }
+}
